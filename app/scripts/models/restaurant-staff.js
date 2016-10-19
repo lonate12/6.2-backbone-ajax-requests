@@ -2,7 +2,9 @@ var Backbone = require('backbone');
 var $ = require('jquery');
 
 
-var Staff = Backbone.Model.extend();
+var Staff = Backbone.Model.extend({
+  idAttribute: '_id'
+});
 
 var StaffCollection = Backbone.Collection.extend({
   model: Staff,

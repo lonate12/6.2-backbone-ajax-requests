@@ -28,6 +28,7 @@ var model = require('./models/restaurant-staff.js');
     var selectedToDelete = losStaff.get(cid);
     if (window.confirm('Are you sure you want to delete this record?'+
     ' Click "OK" to continue or "Cancel" to return.')){
+      console.log(selectedToDelete);
       selectedToDelete.destroy();
       alert(selectedToDelete.get('name') + ' has been deleted from your staff collection.');
     }
