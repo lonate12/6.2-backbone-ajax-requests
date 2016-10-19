@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>6.2-backbone-ajax-requests</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Backbone and AJAX Requests</h1>
+
+      <div class="row">
+        <div class="col-md-6">
+          <form action="">
+            <input type="text" placeholder="Name" class="text-input" id="name">
+            <input type="text" placeholder="Position (i.e. Server, Cook, Manager, etc.)" class="text-input" id="position">
+            <input type="text" placeholder="Stats (0-100)" class="text-input" id="stats">
+            <button class="styled-button" id="submit-info">Submit Info</button>
+          </form>
+        </div>
+        <div class="col-md-6 employees">
+          <button id="employees-button" class="styled-button">Show Employees</button>
+          <p>List of Employees</p>
+          <ul class="staff-list">
+            <!-- Info from server, generated with Backbone -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
