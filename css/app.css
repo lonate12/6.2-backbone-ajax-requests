@@ -5805,7 +5805,8 @@ form {
 
 .employees {
   font-family: 'Indie Flower', cursive;
-  font-size: 30px; }
+  font-size: 30px;
+  margin-top: 20px; }
   .employees .delete {
     background-color: red;
     padding: 5px;
