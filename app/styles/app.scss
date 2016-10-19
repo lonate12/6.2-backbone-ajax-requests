@@ -6,6 +6,7 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
 $yellow: yellow;
+$red: red;
 
 *,
 *::before,
@@ -64,6 +65,16 @@ form {
   font-family: 'Indie Flower', cursive;
   font-size: 30px;
 
+  .delete{
+    background-color: red;
+    padding: 5px;
+    color: white;
+    border: 1px solid white;
+    font-size: 14px;
+    display: inline;
+    margin-right: 10px;
+  }
+
 
   p {
     text-align: center;
@@ -77,6 +88,8 @@ form {
     li {
       font-family: 'Indie Flower', cursive;
       font-size: 20px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
     }
   }
 }
