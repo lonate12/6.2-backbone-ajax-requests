@@ -5802,6 +5802,9 @@ form {
     margin: 0 auto;
     margin-bottom: 8px;
     width: 300px; }
+    @media screen and (min-width: 300px) {
+      form .text-input {
+        width: 98%; } }
 
 .employees {
   font-family: 'Indie Flower', cursive;
@@ -5826,4 +5829,5 @@ form {
       font-size: 20px;
       text-transform: uppercase;
       margin-bottom: 10px; }
+
 /*# sourceMappingURL=app.css.map */
